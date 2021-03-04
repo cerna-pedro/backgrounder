@@ -1,0 +1,29 @@
+{
+  "name": "backgrounder",
+  "version": "1.0.0",
+  "description": "Opens up Microsoft Edge and Google Chrome to save background image in location where PC background images are displayed.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cerna-pedro/backgrounder.git"
+  },
+  "keywords": [
+    "puppeteer"
+  ],
+  "author": "Pedro Cerna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cerna-pedro/backgrounder/issues"
+  },
+  "homepage": "https://github.com/cerna-pedro/backgrounder#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "puppeteer-core": "^8.0.0"
+  }
+}
