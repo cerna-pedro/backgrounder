@@ -1,7 +1,7 @@
 {
   "name": "backgrounder",
   "version": "1.0.0",
-  "description": "Opens up Microsoft Edge and Google Chrome to save background image in location where PC background images are displayed.",
+  "description": "This script launches Microsoft Edge in a headless browser using Puppeteer.JS by Google, to save the background image displayed in the browser new tab window.",
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
@@ -24,6 +24,7 @@
     "nodemon": "^2.0.7"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "puppeteer-core": "^8.0.0"
   }
 }
